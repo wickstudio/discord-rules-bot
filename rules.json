@@ -2,61 +2,74 @@
   {
     "id": "rules1",
     "title": "rules2",
-    "description": "data/file1.txt"
+    "description": "data/file1.txt",
+    "emoji": "💬"
   },
   {
     "id": "rule2",
     "title": "test 2",
-    "description": "data/file2.txt"
+    "description": "data/file2.txt",
+    "emoji": "💬"
   },
   {
     "id": "rule3",
     "title": "test 3",
-    "description": "data/file3.txt"
+    "description": "data/file3.txt",
+    "emoji": "💬"
   },
   {
     "id": "rule4",
     "title": "test 3",
-    "description": "data/file4.txt"
+    "description": "data/file4.txt",
+    "emoji": "💬"
   },
   {
     "id": "rule5",
     "title": "test 3",
-    "description": "data/file5.txt"
+    "description": "data/file5.txt",
+    "emoji": "💬"
   },
   {
     "id": "rule6",
     "title": "test 3",
-    "description": "data/file6.txt"
+    "description": "data/file6.txt",
+    "emoji": "💬"
   },
   {
     "id": "rule7",
     "title": "test 3",
-    "description": "data/file7.txt"
+    "description": "data/file7.txt",
+    "emoji": "💬"
   },
   {
     "id": "rule8",
     "title": "test 3",
-    "description": "data/file8.txt"
+    "description": "data/file8.txt",
+    "emoji": "💬"
   },
   {
     "id": "rule9",
     "title": "test 3",
-    "description": "data/file9.txt"
+    "description": "data/file9.txt",
+    "emoji": "💬"
   },
   {
     "id": "rule10",
     "title": "test 3",
-    "description": "data/file10.txt"
+    "description": "data/file10.txt",
+    "emoji": "💬"
   },
   {
     "id": "rule11",
     "title": "test 3",
-    "description": "data/file11.txt"
+    "description": "data/file11.txt",
+    "emoji": "💬"
   },
   {
     "id": "rule12",
     "title": "test 3",
-    "description": "data/file12.txt"
+    "description": "data/file12.txt",
+    "emoji": "💬"
   }
+
 ]
