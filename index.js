@@ -151,7 +151,7 @@ async function makeMenu() {
 
   const embed = new EmbedBuilder()
     .setColor('#24242c')
-    .setThumbnail('https://cdn.discordapp.com/attachments/1282023156395151543/1413829289463251005/b705f72d9447bebc55afeecdcff04725.webp')
+    .setThumbnail('https://media.discordapp.net/attachments/1244648462100860949/1244648462327480441/bbbff967f9b04bf6_1-18.png.webp?ex=68df2b75&is=68ddd9f5&hm=fb7425f2697943ff68c79f6ba8ea01fc0a012c92be11bf0d1cc429e16cee40f6&format=webp&width=550&height=309&')
     .setTitle('قوانين السيرفر')
     .setDescription('الرجاء اختيار أحد القوانين لقرائته من قائمة الاختيارات تحت')
     .setImage('https://media.discordapp.net/attachments/1244648462100860949/1244648462327480441/bbbff967f9b04bf6_1-18.png.webp?ex=68df2b75&is=68ddd9f5&hm=fb7425f2697943ff68c79f6ba8ea01fc0a012c92be11bf0d1cc429e16cee40f6&format=webp&width=550&height=309&')
@@ -274,4 +274,5 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
 startServer();
 client.login(process.env.TOKEN);
+
 
