@@ -12,7 +12,7 @@
 
 ## 📦 التثبيت
 ```bash
-git clone [git@github.com:wickstudio/discord-rules-bot.git](https://github.com/wickstudio/discord-rules-bot.git)
+git clone https://github.com/wickstudio/discord-rules-bot.git
 cd discord-rules-bot-main
 npm install
 ````
