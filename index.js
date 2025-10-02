@@ -20,7 +20,7 @@ const rules = require('./rules.json');
 const { startServer } = require('./alive.js');
 
 const PREFIX  = process.env.PREFIX  || '!';
-const COMMAND = (process.env.CMD || 'dr').toLowerCase();
+const COMMAND = (process.env.CMD || 'rules').toLowerCase();
 
 const client = new Client({
   intents: [
@@ -168,7 +168,7 @@ client.on(Events.MessageCreate, async (message) => {
   const args = message.content.slice(PREFIX.length).trim().split(/\s+/);
   const cmd  = (args.shift() || '').toLowerCase();
 
-  // !dr
+  // !rules
   if (cmd === COMMAND) {
     if (!message.member.permissions.has(PermissionsBitField.Flags.Administrator)) {
       return message.reply({ content: 'تحتاج صلاحيات ادمن لاستخدام الأمر' });
@@ -274,5 +274,6 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
 startServer();
 client.login(process.env.TOKEN);
+
 
 
